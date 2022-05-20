@@ -20,7 +20,7 @@ function filter(courses, requiredRange) {
     //обработаем ситуацию, когда пользователь не указал один из диапазонов
     if (min === null)
         min = 0;
-    if (max == null)
+    if (max === null)
         max = Number.MAX_SAFE_INTEGER; 
     resultFiltration = [];
     for (i in courses){
